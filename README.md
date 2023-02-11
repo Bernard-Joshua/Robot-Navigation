@@ -11,7 +11,11 @@ In the lectures you have seen the Robot Navigation problem: The environment is a
 
 Assume that the cells of the grid are located by their coordinates with the leftmost top cell being considered to be at the coordinate (0, 0). A wall is a rectangle whose leftmost top corner occupies a cell (x,y) and whose width (w) and height (h) capture its size. For instance, the above environment can be expressed by the
 
-\*\*following specification:\*\*
+
+![Robot-Navigation-Map](https://github.com/Bernard-Joshua/Robot-Navigation/blob/main/Screenshot%202023-02-11%20122507.jpg)
+
+
+**following specification:**
 
 [5,11] // The grid has 5 rows and 11 columns
 
