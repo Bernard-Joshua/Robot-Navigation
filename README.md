@@ -56,8 +56,10 @@ The following describe a number of tree based search algorithms. Note: When all 
 
 ## Uninformed
 
-- Depth-First Search Select one option, try it, go back when there are no more options DFS
-- Breadth-First Search Expand all options one level at a time BFS
+- Depth-First Search 
+  -  Select one option, try it, go back when there are no more options.
+- Breadth-First Search 
+  - Expand all options one level at a time.
 
 ## Informed
 
