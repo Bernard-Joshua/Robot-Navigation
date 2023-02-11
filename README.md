@@ -46,11 +46,13 @@ The problems are stored in simple text files with the following format:
 - Third line contains a sequence of pairs of numbers separated by |; these are the coordinates of the goal states: (xG1,yG1) | (xG2,yG2) | ... | (xGn,yGn), where n ≥ 
 - The subsequent lines represent the locations of the walls: The tuple (x,y,w,h) indicates that the leftmost top corner of the wall occupies cell (x,y) with a width of w cells and a height of h cells.
 - We are only interested in search algorithms. Therefore, it can be assumed that the problem files will contain valid configurations. For instance, if N=5 and M = 11 then you don't have to worry that the agent is initially located at coordinates (15, 3).
-- The following describe a number of tree based search algorithms. Note: When all else is equal, nodes should be expanded according to the following order: the agent should try to move UP before attempting LEFT, before attempting DOWN, before attempting RIGHT, in that order. DFS, BFS, GBFS and AS have been covered in the lectures and the tutorials. CUS1 and CUS2 are two algorithms that was learnt by myself.
+
 
 **NOTE:** The objective is to reach one of the green cells.
 
 # Search Algorithms
+
+The following describe a number of tree based search algorithms. Note: When all else is equal, nodes should be expanded according to the following order: the agent should try to move UP before attempting LEFT, before attempting DOWN, before attempting RIGHT, in that order. DFS, BFS, GBFS and AS have been covered in the lectures and the tutorials. CUS1 and CUS2 are two algorithms that was learnt by myself.
 
 ## Uninformed
 
